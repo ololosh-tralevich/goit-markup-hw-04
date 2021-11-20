@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <header class="header">
-    <div class="container flex-container">
+    <div class="container header-flex-container">
       <a class="logo a-tag" href="./index.html">
         Web<span class="logo-black">Studio</span>
       </a>
@@ -23,32 +23,37 @@
       <nav>
         <ul class="menu flex-container">
           <li class="studio">
-            <a class="a-tag" href="./index.html">Студия</a>
+            <a class="a-tag-header" href="./index.html">Студия</a>
           </li>
           <li class="portfolio">
-            <a class="a-tag portfolio-open" href="./portfolio.html">Портфолио</a>
+            <a class="a-tag-header portfolio-open" href="./portfolio.html">Портфолио</a>
           </li>
-          <li class="contact"><a class="a-tag" href="/contact">Контакты</a></li>
+          <li class="contact">
+            <a class="a-tag-header" href="/contact">Контакты</a>
+          </li>
         </ul>
       </nav>
 
       <ul class="contacts flex-container">
         <li class="header-email">
-        <a class="a-tag email" href="mailto:info@example.com">
-          info@example.com
-        </a>
+          <a class="a-tag-header email" href="mailto:info@example.com">
+            info@example.com
+          </a>
+        </li>
+
         <li class="header-tel">
-        <a class="a-tag tel" href="tel:+380991111111">
-          +38 099 111 11 11
-        </a>
-      </li>
+          <a class="a-tag-header tel" href="tel:+380991111111">
+            +38 099 111 11 11
+          </a>
+        </li>
       </ul>
     </div>
   </header>
 
     <!-- main content section -->
     <main>
-    <section class="menu container section">
+    <section class="menu section">
+      <div class="container">
         <h2 hidden>Портфолио</h2>
         <ul class="button-list flex-container">
           <li class="button-li">
@@ -73,7 +78,6 @@
             </button>
           </li>
         </ul>
-
       <!-- img list -->
         <ul class="flex-container-wrap flex-container">
           <li class="projects-img-block">
@@ -83,9 +87,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Технокряк</h3>
             <p class="projects-descrition">Веб-сайт</p>
-          </a>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -95,8 +100,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Постер New Orlean vs Golden Star</h3>
             <p class="projects-descrition">Дизайн</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -106,8 +113,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Ресторан Seafood</h3>
             <p class="projects-descrition">Приложение</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -117,8 +126,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Проект Prime</h3>
             <p class="projects-descrition">Маркетинг</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -128,8 +139,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Проект Boxes</h3>
             <p class="projects-descrition">Приложение</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -139,8 +152,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Inspiration has no Borders</h3>
             <p class="projects-descrition">Веб-сайт</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -150,8 +165,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Издание Limited Edition</h3>
             <p class="projects-descrition">Дизайн</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -161,8 +178,10 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Проект LAB</h3>
             <p class="projects-descrition">Маркетинг</p>
+          </div>
           </a>
           </li>
           <li class="projects-img-block">
@@ -172,32 +191,35 @@
               width="370"
               alt="Логотип проекта"
             />
+            <div class="projects-text">
             <h3 class="projects-name">Growing Business</h3>
             <p class="projects-descrition">Приложение</p>
+          </div>
           </a>
           </li>
         </ul>
+      </div>
     </section>
   </main>
 
     <!-- footer content section -->
     <footer class="footer">
       <div class="container flex-container-footer">
-      <a class="footer-logo a-tag" href="./index.html">
-        Web<span class="logo-white">Studio</span>
-      </a>
-      <address class="address flex-container-footer">
-        <a class="map a-tag" href="https://goo.gl/maps/2pE7odXQLVDn4BUs5">
-          г. Киев, пр-т Леси Украинки, 26
+        <a class="footer-logo a-tag" href="./index.html">
+          Web<span class="logo-white">Studio</span>
         </a>
-        <a class="footer-email a-tag" href="mailto:info@example.com">
-          info@example.com
-        </a>
-        <a class="footer-tel a-tag" href="tel:+380991111111">
-          +38 099 111 11 11
-        </a>
-      </address>
-    </div>
+        <address class="address flex-container-footer">
+          <a class="map a-tag" href="https://goo.gl/maps/2pE7odXQLVDn4BUs5">
+            г. Киев, пр-т Леси Украинки, 26
+          </a>
+          <a class="footer-email a-tag" href="mailto:info@example.com">
+            info@example.com
+          </a>
+          <a class="footer-tel a-tag" href="tel:+380991111111">
+            +38 099 111 11 11
+          </a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
