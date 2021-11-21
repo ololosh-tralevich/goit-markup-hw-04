@@ -192,9 +192,9 @@ h3 {
   color: var(--grey-color);
 }
 
-.envelope,
-.smartphone {
-  fill: currentColor;
+.a-tag:hover .envelope,
+.a-tag:hover .smartphone {
+  fill: var(--hover-color);
 }
 
 /* main section */
