@@ -12,7 +12,9 @@
   --footer-color: #2f303a;
   --order-block-color: #c4c4c4;
   --order-btn-backgrn-clr: #188ce8;
+  --client-logo-color: #AFB1B8;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-icons-color: rgba(255, 255, 255, 0.1);
 }
 
 *,
@@ -378,6 +380,21 @@ h3 {
   font-weight: normal;
 }
 
+.our-client {
+  fill: var(--client-logo-color);
+  border: 1px solid var(--client-logo-color);
+  border-radius: 4px;
+  margin-right: 30px;
+}
+.our-client:last-child {
+  margin-right: 0;
+}
+.our-client:hover {
+  fill: var(--hover-color);
+  border-color: var(--hover-color);
+  cursor: pointer;
+}
+
 /* footer section */
 .footer {
   background-color: var(--footer-color);
@@ -435,8 +452,16 @@ h3 {
 }
 .footer-icon {
   fill: var(--white-color);
+  background-color: var(--footer-icons-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
 }
 
+.footer-icon:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
 
 
 
