@@ -34,15 +34,21 @@
         </ul>
       </nav>
 
-      <ul class="contacts flex-container">
+      <ul class="contacts">
         <li class="header-email">
           <a class="a-tag-header email" href="mailto:info@devstudio.com">
+            <svg class="envelope" width="16px" height="12px">
+              <use href="./images/sprite/icons.svg#icon-envelope"></use>
+            </svg>
             info@devstudio.com
           </a>
         </li>
 
         <li class="header-tel">
           <a class="a-tag-header tel" href="tel:+380961111111">
+            <svg class="smartphone" width="10px" height="16px">
+              <use href="./images/sprite/icons.svg#icon-smartphone"></use>
+            </svg>
             +38 096 111 11 11
           </a>
         </li>
@@ -204,21 +210,56 @@
 
     <!-- footer content section -->
     <footer class="footer">
-      <div class="container flex-container-footer">
-        <a class="footer-logo a-tag" href="./index.html">
-          Web<span class="logo-white">Studio</span>
-        </a>
-        <address class="address flex-container-footer">
-          <a class="map a-tag" href="https://goo.gl/maps/2pE7odXQLVDn4BUs5">
-            г. Киев, пр-т Леси Украинки, 26
+      <div class="container footer-flex">
+        <div class="footer-flex-wrap">
+          <a class="footer-logo a-tag" href="./index.html">
+            Web<span class="logo-white">Studio</span>
           </a>
-          <a class="footer-email a-tag" href="mailto:info@devstudio.com">
-            info@devstudio.com
-          </a>
-          <a class="footer-tel a-tag" href="tel:+380961111111">
-            +38 096 111 11 11
-          </a>
-        </address>
+          <address class="address footer-flex-wrap">
+            <a class="map a-tag" href="https://goo.gl/maps/2pE7odXQLVDn4BUs5">
+              г. Киев, пр-т Леси Украинки, 26
+            </a>
+            <a class="footer-email a-tag" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+            <a class="footer-tel a-tag" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </address>
+        </div>
+        <div class="footer-links">
+          <p class="invite-footer">Присоеденяйтесь</p>
+          <ul class="footer-links-block">
+            <li class="footer-icon">
+              <a class="white-icon-link" href="#">
+                <svg class="footer-instagram" width="20px" height="20px">
+                  <use href="./images/sprite/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon">
+              <a class="white-icon-link" href="#">
+                <svg class="footer-twitter" width="20px" height="20px">
+                  <use href="./images/sprite/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon">
+              <a class="white-icon-link" href="#">
+                <svg class="footer-facebook" width="20px" height="20px">
+                  <use href="./images/sprite/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icon">
+              <a class="white-icon-link" href="#">
+                <svg class="footer-linkedin" width="20px" height="20px">
+                  <use href="./images/sprite/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
