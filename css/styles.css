@@ -265,6 +265,7 @@ h3 {
 
 /* page index */
 .order-block {
+  margin: 0 auto;
   padding: 200px 0;
   max-width: 1600px;
   text-align: center;
