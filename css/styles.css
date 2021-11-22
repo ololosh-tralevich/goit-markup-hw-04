@@ -424,6 +424,22 @@ h3 {
   color: var(--footer-contacts-color);
 }
 
+/* footer .svg */
+.soc-links-list {
+  /* align-items: center; */
+  margin-top: 72px;
+  margin-left: 525px;
+}
+.invite-footer {
+  color: var(--white-color);
+}
+.footer-icon {
+  fill: var(--white-color);
+}
+
+
+
+
 .footer-tel:last-child {
   margin: 0;
 }
