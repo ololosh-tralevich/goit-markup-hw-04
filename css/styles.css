@@ -63,7 +63,8 @@ h3 {
 }
 
 .a-tag,
-.a-tag-header {
+.a-tag-header,
+.a-tag-portfolio {
   color: var(--black-color);
   text-decoration: none;
   display: block;
